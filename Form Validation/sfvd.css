@@ -1,0 +1,27 @@
+#form {
+  border: 2px solid orange;
+  padding: 20px;
+  background-color: palegoldenrod;
+}
+body {
+  background-color: orchid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+.form-control input {
+  display: block;
+  width: 320px;
+  height: 40px;
+  border-radius: 10px;
+}
+.form-control label {
+  font-size: 25px;
+  font-weight: bold;
+}
+.input_submit {
+  margin-top: 20px;
+  background-color: lightblue;
+}

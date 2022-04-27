@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <script src="example.js"></script> -->
+  </head>
+  <body>
+    <script>
+      class Demo {
+        setter(a, b) {
+          this.x = a;
+          this.y = b;
+          this.z = this.x + this.y;
+        }
+        print() {
+          console.log("Addition: " + this.z);
+        }
+      }
+      const obj = new Demo();
+      obj.setter(18, 10);
+      obj.print();
+    </script>
+  </body>
+</html>

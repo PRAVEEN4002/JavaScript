@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Event Bubbling</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="grandparent">
+      <div class="parent">
+        <div class="child"></div>
+      </div>
+    </div>
+    <script>
+      const grandparent = document.querySelector(".grandparent");
+      const parent = document.querySelector(".parent");
+      const child = document.querySelector(".child");
+      grandparent.addEventListener(
+        "click",
+        () => {
+          alert("grand parent element clicked");
+        },
+        true
+      );
+      parent.addEventListener(
+        "click",
+        () => {
+          alert("parent element clicked");
+        },
+        true
+      );
+      child.addEventListener(
+        "click",
+        () => {
+          alert("chld element clicked");
+        },
+        true
+      );
+    </script>
+  </body>
+</html>

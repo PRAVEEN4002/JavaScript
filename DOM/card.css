@@ -1,0 +1,89 @@
+1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+  10
+  11
+  12
+  13
+  14
+  15
+  16
+  17
+  18
+  19
+  20
+  21
+  22
+  23
+  24
+  25
+  26
+  27
+  28
+  29
+  30
+  31
+  32
+  33
+  34
+  35
+  36
+  37
+  38
+  39
+  40
+  41
+  42
+  43
+  44
+  body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.card {
+  box-shadow: 0 5px 5px 5px #e1e1e1;
+  max-width: 350px;
+  padding: 15px;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  border: 5px solid #e1e1e1;
+  border-radius: 50%;
+}
+
+.social {
+  margin: 15px 0;
+}
+
+a {
+  font-size: 26px;
+  padding: 7px 12px;
+  text-decoration: none;
+  color: #585858;
+  border: 1px solid #e1e1e1;
+  border-radius: 10px;
+}
+
+a:hover {
+  background-color: #585858;
+  color: #ffffff;
+}
+table,
+table tr td {
+  width: 290px;
+  margin: 0 auto;
+  border: 1px solid #e1e1e1;
+  text-align: left;
+}

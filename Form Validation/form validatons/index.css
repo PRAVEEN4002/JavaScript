@@ -1,0 +1,77 @@
+/* .form .form-control{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+} */
+
+body{
+    background-color: orchid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form{
+    
+    background-color: cornsilk;
+    border-radius: 10px;
+}
+.form-control input{
+    display: block;
+    height: 40px;
+    width: 240px;
+}
+.container{
+    padding: 6px 30px 12px 30px;
+}
+.header{
+    padding: 10px;
+    margin: 0;
+    color:darkblue;
+}
+.form-control{
+    position: relative;
+    margin-bottom: 15px;
+    color: rgb(109, 70, 146);
+}
+.form-control .fa-check-circle{
+ 
+    position: absolute;
+    top: 31px;
+    right: 17px;
+}
+.form-control .fa-exclamation-circle{
+    
+    position: absolute;
+    top: 31px;
+    right: 17px;
+}
+.form-control.error input{
+    border: 2px solid red;
+}
+.form-control.success input{
+    border: 2px solid green;
+}
+.form-control.error i.fas.fa-exclamation-circle{
+    visibility: visible;
+    color: green;
+}
+.form-control.success i.fas.fa-check-circle{
+    visibility: visible;
+    color: green;
+}
+.form-control i{
+    visibility: hidden;
+}
+.btn{
+
+    width: 100%;
+    padding: 10px;
+}
+.btn-submit{
+    background-color:rgb(109, 70, 146);
+    color: white;
+}
